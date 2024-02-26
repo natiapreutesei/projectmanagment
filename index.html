@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief description of your website or page content goes here.">
+    <title>Project Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link rel="icon" href="styles/favicon.ico" type="image/x-icon">
+    <style>
+        .nav-item { margin: 0px 12px 0px 12px;}
+        .collapsed { background-color: darkslategrey; color: white;}
+        a { color: #8DB1B1; }
+        .mainRow td { background-color: #400F0F !important; color: white !important; font-weight: bolder; }
+        .extraRows td { background-color: #100F40 !important; color: white !important; font-size: 0.9em; }
+        .pointer-cursor { cursor: pointer; }
+    </style>
+</head>
+<body class=" bg-dark text-white">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col-10 offset-1 d-flex justify-content-between">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active h1">
+                                    <a class="nav-link" href="#d">Project Management</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-fluid mb-5">
+        <section class="row d-flex align-items-center justify-content-center">
+            <div class="col-10 offset-1 mt-5">
+                <div class="accordion mt-5" id="Phasing">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#initPhase" aria-expanded="true" aria-controls="initPhase">
+                                Initiative Phase
+                            </button>
+                        </h2>
+                        <div id="initPhase" class="accordion-collapse collapse show" data-bs-parent="#Phasing">
+                            <div class="accordion-body bg-dark text-white">
+                                <ul>
+                                    <li><strong>Objective Setting</strong>: <span style="text-decoration: underline;" data-bs-target="#defPhase" aria-controls="defPhase" data-bs-toggle="collapse">Definition Phase</span>
+                                    </li>
+                                    <li><strong>Main Goal</strong>
+                                        <ul>
+                                            <li>Create a Revolutionary Webshop with highly diverse products.</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Secondary Goals</strong>
+                                        <ul>
+                                            <li>Integrate AI into the User Experience</li>
+                                            <li>Sustainability Initiatives (Go Green)</li>
+                                            <li>Showcase Augmented Reality as a default</li>
+                                            <li>Market Influence through Revolutionary Visuals</li>
+                                            <li>Build Strategic Partnerships</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Similar Projects (Feasibility)</strong>
+                                        <ul>
+                                            <li><a href="http://amazon.com">Amazon (Webshop)</a></li>
+                                            <li><a href="http://ione360.com">iONE360.com (WebAR)</a></li>
+                                            <li><a href="http://artificio.com">Artificio (QR AR)</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#defPhase" aria-expanded="false" aria-controls="defPhase">
+                                Definition Phase
+                            </button>
+                        </h2>
+                        <div id="defPhase" class="accordion-collapse collapse" data-bs-parent="#Phasing">
+                            <div class="accordion-body bg-dark text-white">
+                                <section class="row d-flex justify-content-between m-auto">
+                                    <article class="col-lg-5">
+                                        <ul>
+                                            <li><strong class="pointer-cursor" data-bs-toggle="modal" data-bs-target="#projDef">Project Definition</strong>
+                                                <ul>
+                                                    <li>Objectives
+                                                        <ul>
+                                                            <li>Ease of User Accessibility</li>
+                                                            <li>Enhancement of User Experience</li>
+                                                            <li>Implementation of Avant Garde Technology</li>
+                                                            <li>Full Webshop Experience</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Scope
+                                                        <ul>
+                                                            <li>Local Sponsors, Partners, and Logistics</li>
+                                                            <li>Global Logistics, Accessibility, and Standards</li>
+                                                            <li>Product, Technology, and Market Analysis</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Deliverables
+                                                        <ul>
+                                                            <li>Website</li>
+                                                            <li>Mobile App</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </article>
+                                    <article class="col-lg-7">
+                                        <ul>
+                                            <li><strong>Stakeholder Analysis</strong>
+                                                <ul>
+                                                    <li>Customers
+                                                        <ul>
+                                                            <li>Interests: User Experience and efficiently receive highly diverse products.</li>
+                                                            <li>Management: Technology and Market Analysis</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Suppliers
+                                                        <ul>
+                                                            <li>Interests: Visibility and Profit.</li>
+                                                            <li>Management: Marketing and Sales.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Logistic Partners
+                                                        <ul>
+                                                            <li>Interests: Well implemented automated system of order management.</li>
+                                                            <li>Management: Modern ERP and CMS tools.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Tech Partners
+                                                        <ul>
+                                                            <li>Interests: The ability to showcase the efficacy of their technology.</li>
+                                                            <li>Management: Proper implementation of their software in compliancy with their standards.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Financial Partners
+                                                        <ul>
+                                                            <li>Interests: Profit with minimal risk.</li>
+                                                            <li>Management: Clear budget plan, and transparency of investments.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </article>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#desPhase" aria-expanded="false" aria-controls="desPhase">
+                                Design Phase
+                            </button>
+                        </h2>
+                        <div id="desPhase" class="accordion-collapse collapse" data-bs-parent="#Phasing">
+                            <div class="accordion-body bg-dark text-white">
+                                <section class="row d-flex justify-content-between m-auto">
+                                    <article class="col-lg-5">
+                                        <ul>
+                                            <li><strong>Planning</strong>
+                                                <ul>
+                                                    <li>Schedule:
+                                                        <ul>
+                                                            <li>Tasks:
+                                                                <ul>
+                                                                    <li>Frontend
+                                                                        <ul>
+                                                                            <li>Design</li>
+                                                                            <li>Implementation</li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li>Backend
+                                                                        <ul>
+                                                                            <li>Security</li>
+                                                                            <li>3rd Party Software Integration</li>
+                                                                            <li>Database Setup</li>
+                                                                            <li>Database Communication</li>
+                                                                        </ul>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li data-bs-target="#planningCalendar" data-bs-toggle="modal" class="pointer-cursor text-decoration-underline">Timeline</li>
+                                                            <li>Resources:
+                                                                <ul>
+                                                                    <li>Office Lease Space. (6 months = 6,000)</li>
+                                                                    <li>Man Hours.  (1.5mil)<ul><li>80 per person, per hour for wages, utilities, parking, etc.</li></ul></li>
+                                                                    <li>Subscriptions.  (5,000)</li>
+                                                                    <li>Equipment. (120,000)</li>
+                                                                    <li>Hosting. (6 months = 10,000)</li>
+                                                                    <li>3rd Party Applications. (5,000)</li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </article>
+                                    <article class="col-lg-7">
+                                        <ul>
+                                            <li><strong>Risk Management</strong>
+                                                <ul>
+                                                    <li>Exceeding Timeframe
+                                                        <ul>
+                                                            <li>Implementation of Scrum/Agile Framework.</li>
+                                                            <li>Generous Calculation on time frame.</li>
+                                                            <li>Seeking highly skilled individuals.</li>
+                                                            <li>Avoiding burnout by providing extracurricular activities.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Exceeding Budget
+                                                        <ul>
+                                                            <li>Project Management Plan and tight review of it.</li>
+                                                            <li>Outsourcing mundane tasks to AI.</li>
+                                                            <li>Provide a high-interest product that draws investors.</li>
+                                                            <li>Scrum Framework on finances.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>Complexity
+                                                        <ul>
+                                                            <li>Modular Designs that provide a plug-n-play mentality to building.</li>
+                                                            <li>Focus on 3rd party suppliers that provide high quality customer support.</li>
+                                                            <li>Documentation via a powerful DMS, and insist on 3rd party suppliers providing said documentation.</li>
+                                                            <li>Hosting that allows for scalability, such as Azure or Amazon.</li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>User Privacy
+                                                        <ul>
+                                                            <li>Implement robust data protection compliant with GDPR.</li>
+                                                            <li>Transparency in what data we have per user, but in a secure way.</li>
+                                                            <li>Secure data storage, and implementation of security protocols.</li>
+                                                            <li>Using the latest technology for ssl connections, including the necessity of MFA.</li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </article>
+                                </section>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#impPhase" aria-expanded="false" aria-controls="impPhase">
+                                Implementation Phase
+                            </button>
+                        </h2>
+                        <div id="impPhase" class="accordion-collapse collapse" data-bs-parent="#Phasing">
+                            <div class="accordion-body bg-dark text-white">
+                                <table class="table table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Task</th>
+                                        <th scope="col">Start Month</th>
+                                        <th scope="col">End Month</th>
+                                        <th scope="col">Duration</th>
+                                        <th scope="col">Team Responsible</th>
+                                        <th scope="col">Remarks</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <!-- Tasks 1-7 (Previously defined) -->
+                                    <tr>
+                                        <td>Platform Architecture Design</td>
+                                        <td>Month 1</td>
+                                        <td>Month 2</td>
+                                        <td>2 Months</td>
+                                        <td>Back End Developers, Database Administrators</td>
+                                        <td>Establish scalable infrastructure</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Initial Prototype Development</td>
+                                        <td>Month 2</td>
+                                        <td>Month 3</td>
+                                        <td>2 Months</td>
+                                        <td>Front End Developers, Graphic Designers</td>
+                                        <td>Interactive demo for stakeholder feedback</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Comprehensive Market Analysis</td>
+                                        <td>Month 1</td>
+                                        <td>Month 3</td>
+                                        <td>3 Months</td>
+                                        <td>Marketing</td>
+                                        <td>Identify target markets and opportunities</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Development Phase I</td>
+                                        <td>Month 3</td>
+                                        <td>Month 4</td>
+                                        <td>2 Months</td>
+                                        <td>Back End Developers, Front End Developers</td>
+                                        <td>Core functionality implementation</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Security and Compliance Audit</td>
+                                        <td>Month 4</td>
+                                        <td>Month 5</td>
+                                        <td>1 Month</td>
+                                        <td>Back End Developers, Database Administrators</td>
+                                        <td>Ensure industry standards are met</td>
+                                    </tr>
+                                    <tr>
+                                        <td>User Testing and Feedback Collection</td>
+                                        <td>Month 5</td>
+                                        <td>Month 6</td>
+                                        <td>2 Months</td>
+                                        <td>Marketing, Front End Developers</td>
+                                        <td>User experience enhancements</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Final Preparations for Launch</td>
+                                        <td>Month 6</td>
+                                        <td>Month 6</td>
+                                        <td>1 Month</td>
+                                        <td>Marketing, Financial Administrators, Graphic Designers</td>
+                                        <td>Marketing campaigns and launch event planning</td>
+                                    </tr>
+                                    <!-- Additional Tasks 8-15 -->
+                                    <tr>
+                                        <td>AR Feature Development</td>
+                                        <td>Month 2</td>
+                                        <td>Month 4</td>
+                                        <td>3 Months</td>
+                                        <td>Front End Developers, Graphic Designers</td>
+                                        <td>Augmented reality shopping experience</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AI-Powered Recommendation System</td>
+                                        <td>Month 3</td>
+                                        <td>Month 5</td>
+                                        <td>3 Months</td>
+                                        <td>Back End Developers, Data Scientists</td>
+                                        <td>Personalized product recommendations</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Mobile App Development</td>
+                                        <td>Month 2</td>
+                                        <td>Month 6</td>
+                                        <td>5 Months</td>
+                                        <td>Front End Developers, UX/UI Designers</td>
+                                        <td>Extend webshop to mobile platforms</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Content Creation for Marketing</td>
+                                        <td>Month 4</td>
+                                        <td>Month 6</td>
+                                        <td>3 Months</td>
+                                        <td>Marketing, Graphic Designers</td>
+                                        <td>Prepare engaging content for launch</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vendor and Supplier Integration</td>
+                                        <td>Month 3</td>
+                                        <td>Month 5</td>
+                                        <td>3 Months</td>
+                                        <td>Back End Developers, Database Administrators</td>
+                                        <td>Seamless inventory management</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Customer Service Platform Setup</td>
+                                        <td>Month 4</td>
+                                        <td>Month 5</td>
+                                        <td>2 Months</td>
+                                        <td>Marketing, Front End Developers</td>
+                                        <td>Implement support chat and FAQ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SEO Optimization</td>
+                                        <td>Month 1</td>
+                                        <td>Month 6</td>
+                                        <td>6 Months</td>
+                                        <td>Marketing, Front End Developers</td>
+                                        <td>Continuous SEO improvement for visibility</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Performance Tuning and Optimization</td>
+                                        <td>Month 5</td>
+                                        <td>Month 6</td>
+                                        <td>2 Months</td>
+                                        <td>Back End Developers, Front End Developers</td>
+                                        <td>Ensure high performance for global users</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cloPhase" aria-expanded="false" aria-controls="cloPhase">
+                                Closure Phase
+                            </button>
+                        </h2>
+                        <div id="cloPhase" class="accordion-collapse collapse" data-bs-parent="#Phasing">
+                            <div class="accordion-body bg-dark text-white"><ul><li>
+                                <strong>1. Project Completion Documentation</strong><ul>
+                                <li>Task: Compile and finalize all project documentation, including technical specifications, design documents, user manuals, and deployment guides.</li>
+                                <li>Responsible Team: Project Management, Back End Developers, Front End Developers, Database Administrators, Graphic Designers</li>
+                                <li>Remarks: Ensure documentation is accessible and understandable for future maintenance and development teams.</li>
+                            </ul></li><li><strong>2. Final Product Testing and Acceptance</strong><ul>
+                                <li>Task: Conduct final testing rounds, including user acceptance testing (UAT), to ensure the product meets all requirements and quality standards.</li>
+                                <li>Responsible Team: QA Team, Back End Developers, Front End Developers</li>
+                                <li>Remarks: Address any last-minute issues or bugs. Obtain formal acceptance from stakeholders.</li>
+                            </ul></li><li><strong>3. Stakeholder Debriefing and Feedback</strong><ul>
+                                <li>                                Task: Organize meetings with stakeholders to present the final product, gather feedback, and discuss any potential future improvements or iterations.</li>
+                                <li>Responsible Team: Project Management, Marketing</li>
+                                <li>Remarks: Use feedback for post-project evaluation and as input for future projects.</li>
+                            </ul></li><li><strong>4. Release of Project Resources</strong><ul>
+                                <li>Task: Systematically release project resources, including personnel, contracted services, and rented equipment or software.</li>
+                                <li>Responsible Team: Project Management, Financial Administrators</li>
+                                <li>Remarks: Ensure all contracts are closed, and final payments are processed.</li>
+                            </ul></li><li><strong>5. Post-Deployment Support Plan</strong><ul>
+                                <li>Task: Establish a support and maintenance plan for handling any issues that arise post-launch.</li>
+                                <li>Responsible Team: Back End Developers, Front End Developers, Customer Service</li>
+                                <li>Remarks: Include a clear escalation path for critical issues.</li>
+                            </ul></li><li><strong>6. Final Report and Closure</strong><ul>
+                                <li>Task: Prepare a final project closure report summarizing project performance, budgeting, achievements, and areas for improvement.</li>
+                                <li>Responsible Team: Project Management, Financial Administrators</li>
+                                <li>Remarks: Share this report with key stakeholders and use it as a benchmark for future projects.</li>
+                            </ul></li></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="projDef" tabindex="-1" aria-labelledby="projDefLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h1 class="modal-title fs-5" id="projDefLabel">Scenario for the Development of an Advanced Webshop</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-dark">
+                    <p>Build a revolutionary webshop that will change the way people shop online. This webshop will support a wide range of products: from physical goods such as clothing and electronics to digital products such as e-books and software, as well as variable products with different options (for example, size, color), composite products that customers can assemble themselves (for example, a computer with specific components), and subscription services for both physical goods (for example, monthly snack boxes) and digital services (for example, streaming services).</p>
+                    <p>The challenge is to create a seamless, user-friendly interface that can handle all these different product types, while also integrating innovative features such as AI-powered recommendations, AR previews for products, and a dynamic pricing system that automatically finds the best deals and promotions for the customer. In addition, the platform must offer advanced shipping options, including international shipping, dropshipping, and eco-friendly delivery options.</p>
+                    <p>The project involves extensive market analysis to understand the needs and preferences of different customer segments, developing a robust and scalable technological framework that supports these diverse product types and features, and establishing strong partnerships with suppliers, logistics partners, and payment processors. Your goal is to launch a webshop that not only meets current e-commerce trends but also shapes them for the future.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-xl" id="planningCalendar" tabindex="-1" aria-labelledby="planningCalendarLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h1 class="modal-title fs-5" id="planningCalendarLabel">Calendar - Planning of Project</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-dark">
+                    <table class="table">
+                        <thead>
+                        <tr><th scope="col">Task</th><th scope="col">Team</th><th scope="col">Responsible</th><th scope="col">Start Date</th><th scope="col">End date</th></tr>
+                        </thead>
+                        <tbody>
+                        <tr scope="row" class="mainRow"><td>Website Layout</td><td>Front-End Developers</td><td>Tom</td><td>07-Mar-24</td><td>31-Mar-24</td></tr>
+                        <tr scope="row" class="extraRows"><td>Description: </td><td colspan="4">Functional Layout for a Webshop.</td></tr>
+                        <tr scope="row" class="extraRows"><td>Requirements: </td><td colspan="4">4 Computers, 8 Monitors, 1 Office (Shared), 4 Desks, Subscriptions for IDE and Hosting.</td></tr>
+                        <tr scope="row" class="mainRow"><td>Graphic Design</td><td>Graphic Designers</td><td>Emeline</td><td>01-Mar-24</td><td>31-Mar-24</td></tr>
+                        <tr scope="row" class="extraRows"><td>Description: </td><td colspan="4">Create Webpage Layout Graphically, and provide optimized images for the Webshop.</td></tr>
+                        <tr scope="row" class="extraRows"><td>Requirements: </td><td colspan="4">2 Computers, 4 Monitors, 1 Office (Shared), 2 Desks, Subscriptions for Adobe Products.</td></tr>
+                        <tr scope="row" class="mainRow"><td>Backend Development</td><td>Back-End Developers</td><td>Marcelline</td><td>14-Mar-24</td><td>31-Sep-24</td></tr>
+                        <tr scope="row" class="extraRows"><td>Description: </td><td colspan="4">Laravel development of the Webshop.</td></tr>
+                        <tr scope="row" class="extraRows"><td>Requirements: </td><td colspan="4">4 Computers, 8 Monitors, 1 Office, 4 Desks (Shared), Subscriptions for IDE and Hosting.</td></tr>
+                        <tr scope="row" class="mainRow"><td>Database Administration</td><td>Database Administration</td><td>Benjamin</td><td>07-Mar-24</td><td>31-Sep-24</td></tr>
+                        <tr scope="row" class="extraRows"><td>Description: </td><td colspan="4">Create Database with Security Protocols according to Project Management.</td></tr>
+                        <tr scope="row" class="extraRows"><td>Requirements: </td><td colspan="4">2 Computers, 4 Monitors, 1 Office (Shared), 2 Desks, Azure SQL Subscription</td></tr>
+                        <tr scope="row" class="mainRow"><td>3rd Party Implementation</td><td>Backend Developers</td><td>Nathan</td><td>15-Apr-24</td><td>31-Sep-24</td></tr>
+                        <tr scope="row" class="extraRows"><td>Description: </td><td colspan="4">Implementation of AR-tifaks, MarktGPT, 360Visio, Social4U, Logi-Router, and Pay2Go.</td></tr>
+                        <tr scope="row" class="extraRows"><td>Requirements: </td><td colspan="4">2 Computers, 4 Monitors, 1 Office (Shared), 2 Desks, Subscriptions for IDE</td></tr>
+                        <tr scope="row" class="mainRow"><td>Security Evaluation</td><td>Database Administration</td><td>David</td><td>31-Sep-24</td><td>01-Jan-25</td></tr>
+                        <tr scope="row" class="extraRows"><td>Description: </td><td colspan="4">Attempt SQL injections, brute-force hacking, man-in-the-middle, and backdoor access.</td></tr>
+                        <tr scope="row" class="extraRows"><td>Requirements: </td><td colspan="4"></td></tr>
+                        <tr scope="row" class="mainRow"><td>Financial Acquisition</td><td>Office Administration</td><td>Ellen</td><td>21-Feb-24</td><td> - </td></tr>
+                        <tr scope="row" class="extraRows"><td>Description: </td><td colspan="4">Seeking investors to bankroll the webshop.</td></tr>
+                        <tr scope="row" class="extraRows"><td>Requirements: </td><td colspan="4">2 Computers, 4 Monitors, 1 Office (Shared), 2 Desks</td></tr>
+                        <tr scope="row" class="mainRow"><td>Marketing and Social Media</td><td>Marketing Dept.</td><td>Olivier</td><td>21-Feb-24</td><td>-</td></tr>
+                        <tr scope="row" class="extraRows"><td>Description: </td><td colspan="4">Social Media on Steroids.</td></tr>
+                        <tr scope="row" class="extraRows"><td>Requirements: </td><td colspan="4">2 Computers, 4 Monitors, 1 Office (Shared), 2 Desks</td></tr>
+                        <tr scope="row" class="mainRow"><td>Administration for Suppliers and Logistics</td><td>Office Administration</td><td>Anik</td><td>01-Jan-25</td><td>-</td></tr>
+                        <tr scope="row" class="extraRows"><td>Description: </td><td colspan="4">Lorem ipsum and other stuff.</td></tr>
+                        <tr scope="row" class="extraRows"><td>Requirements: </td><td colspan="4">2 Computers, 4 Monitors, 1 Office (Shared), 2 Desks</td></tr>
+                        <tr scope="row" class="mainRow"><td>Beta Testing</td><td>Front-End and Back-End Developers</td><td>Rueben</td><td>31-Sep-24</td><td>01-Jan-25</td></tr>
+                        <tr scope="row" class="extraRows"><td>Description: </td><td colspan="4">Debug, debug, debug.</td></tr>
+                        <tr scope="row" class="extraRows"><td>Requirements: </td><td colspan="4">2 Computers, 4 Monitors, 1 Office (Shared), 2 Desks</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal-xl" id="resources" tabindex="-1" aria-labelledby="resourcesLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-dark">
+                    <h1 class="modal-title fs-5" id="resourcesLabel">Calendar - Planning of Project</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body bg-dark">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
